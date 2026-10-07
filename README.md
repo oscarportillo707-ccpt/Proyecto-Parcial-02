@@ -1,12 +1,15 @@
 # Proyecto-Parcial-02
-Proyecto del Parcial 02 
+
+Proyecto del Parcial 02
 
 ## Equipo 04
 
 # Nombre del Equipo:
+
 ### Los 5 fantasticos
 
 ### Integrantes:
+
 - Diego Alexander Hernández Nuñez.
 - Brandon Edenilson Alas Tobias.
 - Oscar Javier Portillo Tejada.
@@ -14,9 +17,11 @@ Proyecto del Parcial 02
 - William Javier Chacon Calderon.
 
 ## Escenario seleccionado
+
 Escenario A - Sistema de biblioteca
 
 ## Descripción de la solución
+
 Se desarrolló una demostración de un sistema de biblioteca
 universitaria utilizando Python para implementar la lógica
 orientada a objetos y HTML, CSS y JavaScript para desarrollar
@@ -38,7 +43,7 @@ El método sobrescrito es mostrar_informacion(). Está definido en la clase padr
 
 El polimorfismo permite que objetos de distintas clases respondan de forma diferente al mismo método. En el programa, los tres libros y las tres revistas se almacenan en una misma lista, lo cual es posible porque todos heredan de MaterialBiblioteca. Luego, un único ciclo recorre la lista y llama a mostrar_informacion() y calcular_dias_prestamo() sobre cada objeto, sin verificar de qué tipo es. Python ejecuta automáticamente la versión que corresponde a cada clase: los libros muestran el autor y devuelven 7 días, y las revistas muestran el número de edición y devuelven 3 días. Además, si se agregara un nuevo tipo de material, el ciclo no tendría que modificarse.
 
-## Explicación sobre la Función de HTML, CSS y JavaScript 
+## Explicación sobre la Función de HTML, CSS y JavaScript
 
 HTML define la estructura de la página: el encabezado, los botones de filtro y el espacio donde se muestra el catálogo. CSS se encarga de la presentación visual: los colores, el diseño de las tarjetas de cada material y las etiquetas que indican si está disponible o prestado. JavaScript aporta el comportamiento: crea los objetos de libros y revistas, genera las tarjetas dinámicamente, filtra el catálogo por tipo y cambia la disponibilidad cuando el usuario hace clic en el botón de préstamo o devolución. En JavaScript se replica además la misma herencia y el mismo polimorfismo del modelo en Python.
 
@@ -53,4 +58,3 @@ El backend, desarrollado en Python, se encarga de lo que debe ser correcto y per
 ## Relación entre ambos
 
 Las validaciones del frontend mejoran la experiencia del usuario, pero no son seguras por sí solas, porque pueden manipularse desde el navegador. Por eso la validación definitiva siempre debe hacerse en el backend. En esta demostración los datos están dentro del archivo JavaScript para simplificar, pero en un sistema real el frontend los solicitaría al backend.
-
