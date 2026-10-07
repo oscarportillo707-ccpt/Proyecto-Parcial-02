@@ -11,7 +11,7 @@ Proyecto del Parcial 02
 - Brandon Edenilson Alas Tobias.
 - Oscar Javier Portillo Tejada.
 - Cristopher David Salmeron Tejada.
-- William Javier Chacon Calderon
+- William Javier Chacon Calderon.
 
 ## Escenario seleccionado
 Escenario A - Sistema de biblioteca
