@@ -2,6 +2,8 @@
 Proyecto del Parcial 02 
 
 ## Equipo 04
+
+# Nombre del Equipo:
 ### Las maravillas
 
 ### Integrantes:
@@ -20,7 +22,4 @@ universitaria utilizando Python para implementar la lógica
 orientada a objetos y HTML, CSS y JavaScript para desarrollar
 la interfaz.
 
-La parte Python implementa una clase padre MaterialBiblioteca
-y las clases hijas Libro y Revista, aplicando conceptos de
-herencia, sobrescritura y polimorfismo.
 
