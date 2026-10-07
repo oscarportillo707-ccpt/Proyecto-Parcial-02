@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Biblioteca UNAB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Biblioteca UNAB</h1>
+        <p>Sistema de préstamo de libros y revistas</p>
+    </header>
+
+    <main class="contenido">
+
+        <section aria-labelledby="titulo-catalogo">
+            <h2 id="titulo-catalogo">Catálogo</h2>
+
+            <div id="mensaje" class="mensaje" role="status" aria-live="polite">
+                Elige un material el que mas te guste y solicita su préstamo. Recuerda que los libros se prestan por 7
+                días y las revistas por 3 días.
+            </div>
+
+            <div class="tabla-contenedor">
+                <table class="catalogo">
+                    <thead>
+                        <tr>
+                            <th scope="col">Material</th>
+                            <th scope="col">Tipo</th>
+                            <th scope="col">Disponibilidad</th>
+                            <th scope="col">Préstamo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr data-titulo="Universo Star Wars" data-dias="7">
+                            <td class="material">
+                                Universo Star Wars
+                                <span class="detalle">Segunda Edición</span>
+                            </td>
+                            <td><span class="tipo tipo-libro">Libro</span></td>
+                            <td><span class="estado disponible">Disponible</span></td>
+                            <td><button class="btn-prestamo" type="button">Solicitar préstamo</button></td>
+                        </tr>
+
+                        <tr data-titulo="La Metamorfosis" data-dias="7">
+                            <td class="material">
+                                La Metamorfosis
+                                <span class="detalle">Franz Kafka</span>
+                            </td>
+                            <td><span class="tipo tipo-libro">Libro</span></td>
+                            <td><span class="estado disponible">Disponible</span></td>
+                            <td><button class="btn-prestamo" type="button">Solicitar préstamo</button></td>
+                        </tr>
+
+                        <tr data-titulo="El principito" data-dias="7">
+                            <td class="material">
+                                El principito
+                                <span class="detalle">Antoine de Saint-Exupéry</span>
+                            </td>
+                            <td><span class="tipo tipo-libro">Libro</span></td>
+                            <td><span class="estado disponible">Disponible</span></td>
+                            <td><button class="btn-prestamo" type="button">Solicitar préstamo</button></td>
+                        </tr>
+
+                        <tr data-titulo="National Geographic" data-dias="3">
+                            <td class="material">
+                                National Geographic
+                                <span class="detalle">Edición n.º 45</span>
+                            </td>
+                            <td><span class="tipo tipo-revista">Revista</span></td>
+                            <td><span class="estado disponible">Disponible</span></td>
+                            <td><button class="btn-prestamo" type="button">Solicitar préstamo</button></td>
+                        </tr>
+
+                        <tr data-titulo="Muy Interesante" data-dias="3">
+                            <td class="material">
+                                Muy Interesante
+                                <span class="detalle">Edición n.º 12</span>
+                            </td>
+                            <td><span class="tipo tipo-revista">Revista</span></td>
+                            <td><span class="estado no-disponible">No disponible</span></td>
+                            <td><button class="btn-prestamo" type="button" disabled>Prestado</button></td>
+                        </tr>
+
+                        <tr data-titulo="Empire" data-dias="3">
+                            <td class="material">
+                                Empire
+                                <span class="detalle">Revista de cine</span>
+                                </span>
+                            </td>
+                            <td><span class="tipo tipo-revista">Revista</span></td>
+                            <td><span class="estado no-disponible">No disponible</span></td>
+                            <td><button class="btn-prestamo" type="button" disabled>Prestado</button></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        Ingeniería en Sistemas y Computación
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+/* ---------- Base ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef2f1;
+    color: #1d2b2a;
+    line-height: 1.5;
+}
+
+/* ---------- Encabezado ---------- */
+.encabezado {
+    background: #cd3333;
+    color: #ffffff;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.2rem;
+    letter-spacing: 0.01em;
+}
+
+.encabezado p {
+    margin: 0.4rem 0 0;
+    color: #c9ddd9;
+}
+
+/* ---------- Contenido ---------- */
+.contenido {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.contenido h2 {
+    margin: 0 0 1rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.5rem;
+    color: #12372f;
+}
+
+/* ---------- Mensaje ---------- */
+.mensaje {
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    background: #ffffff;
+    border-left: 5px solid #cfd9d7;
+    border-radius: 4px;
+    color: #5b6b69;
+}
+
+.mensaje.activo {
+    border-left-color: #1b4d45;
+    color: #1d2b2a;
+    font-weight: 600;
+}
+
+/* ---------- Tabla del catálogo ---------- */
+.tabla-contenedor {
+    overflow-x: auto;
+    background: #ffffff;
+    border: 1px solid #cfd9d7;
+    border-radius: 6px;
+}
+
+.catalogo {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: collapse;
+}
+
+.catalogo th,
+.catalogo td {
+    padding: 0.9rem 1rem;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.catalogo thead th {
+    background: #f4f7f6;
+    border-bottom: 2px solid #cfd9d7;
+    font-size: 0.9rem;
+    color: #5b6b69;
+}
+
+.catalogo tbody tr+tr td {
+    border-top: 1px solid #cfd9d7;
+}
+
+.catalogo tbody tr:hover {
+    background: #f9fbfa;
+}
+
+.material {
+    font-weight: 600;
+}
+
+.detalle {
+    display: block;
+    font-weight: 400;
+    font-size: 0.88rem;
+    color: #5b6b69;
+}
+
+/* ---------- Etiquetas de tipo y estado ---------- */
+.tipo,
+.estado {
+    display: inline-block;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.tipo-libro {
+    background: #dbe8f5;
+    color: #1d4673;
+}
+
+.tipo-revista {
+    background: #f6e6d0;
+    color: #7a4310;
+}
+
+.disponible {
+    background: #d9f0e1;
+    color: #17623a;
+}
+
+.no-disponible {
+    background: #f5d9d6;
+    color: #8a2a22;
+}
+
+/* ---------- Botón de préstamo ---------- */
+.btn-prestamo {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background: #b33d3d;
+    color: #ffffff;
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.btn-prestamo:hover {
+    background: #12372f;
+}
+
+.btn-prestamo:focus-visible {
+    outline: 3px solid #f0b429;
+    outline-offset: 2px;
+}
+
+.btn-prestamo:disabled {
+    background: #c3cdcb;
+    color: #667573;
+    cursor: not-allowed;
+}
+
+/* ---------- Pie ---------- */
+.pie {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #5b6b69;
+}
