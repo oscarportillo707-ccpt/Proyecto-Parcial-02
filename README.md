@@ -1,8 +1,8 @@
 # Proyecto-Parcial-02
 Proyecto del Parcial 02 
 
-## Equipo 04
-## Las maravillas
+# Equipo 04
+### Las maravillas
 
 ### Integrantes:
 - Diego Alexander Hernández Nuñez.
