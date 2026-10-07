@@ -2,7 +2,7 @@
 Proyecto del Parcial 02 
 
 ## Equipo 04
-### Las maravillas
+Las maravillas
 
 ### Integrantes:
 - Diego Alexander Hernández Nuñez.
@@ -12,4 +12,5 @@ Proyecto del Parcial 02
 - William Javier Chacon Calderon
 
 ## Escenario seleccionado
+Escenario A - Sistema de biblioteca
 
