@@ -4,7 +4,7 @@ Proyecto del Parcial 02
 ## Equipo 04
 
 # Nombre del Equipo:
-### Las maravillas
+### Los 5 fantasticos
 
 ### Integrantes:
 - Diego Alexander Hernández Nuñez.
