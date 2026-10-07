@@ -14,3 +14,8 @@ Proyecto del Parcial 02
 ## Escenario seleccionado
 Escenario A - Sistema de biblioteca
 
+## Descripción de la solución
+Se desarrolló una demostración de un sistema de biblioteca
+universitaria utilizando Python para implementar la lógica
+orientada a objetos y HTML, CSS y JavaScript para desarrollar
+la interfaz.
